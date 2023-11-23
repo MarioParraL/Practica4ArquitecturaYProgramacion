@@ -11,7 +11,11 @@ La Tardis guarda los siguientes datos en sus memorias Gallifreyanas según lo qu
 Las dimensiones, planetas y personas se deberán guardar en diferentes colecciones de mongo atlas y ser relacionadas por id's entre si llegando a una sola final en la que se guarde cada TARDIS.
 El api deberá de poseer llamadas para ver, crear y modificar TARDISs además de todos los elementos de su interior, cada llamada tendrá que ser del método requerido por su funcionalidad.
 # Endpoints
-# Agregar Tardis (Post): /api/tardis
-# Eliminar Tardis (Delete): /api/tardis/:id
-# Info de las Tardis (Get): /api/tardis
-# Actualizar Tardis (Put): /api/tardis/:id
+# Agregar Tardis (Post):
+/api/tardis
+# Eliminar Tardis (Delete): 
+/api/tardis/:id
+# Info de las Tardis (Get): 
+/api/tardis
+# Actualizar Tardis (Put): 
+/api/tardis/:id
